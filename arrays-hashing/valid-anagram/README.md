@@ -1,36 +1,35 @@
-
 # Valid Anagram
 
 Check whether two strings contain the same character frequency.
 
-## Key Idea
+## 📌 Key Idea
 
 Use a `HashMap` to count characters from one string and reduce counts using the second string.
 
 If all frequencies match, the strings are anagrams.
 
-## Why this approach ⚙️
+## 📌 Why this approach
 
 Sorting works, but takes `O(n log n)` time.
 
 Using a frequency map reduces the problem to lookups and updates, giving an `O(n)` solution.
 
-## Pattern
+## 📌 Pattern
 
-Arrays & Hashing -> Frequency Counting
+Arrays & Hashing → Frequency Counting
 
-## Real-world intuition 🌐
+## 📌 Real-world application
 
-Useful whenever order does not matter, but frequency/count does.
+Useful when order does not matter, but count/frequency does.
 
 Examples:
-
 * comparing data regardless of order
 * counting repeated events or requests
 * validating occurrence counts
 
-## Complexity ⏱️
+## 📌 Complexity
 
 * Time: `O(n)`
 * Space: `O(k)`
+
 
