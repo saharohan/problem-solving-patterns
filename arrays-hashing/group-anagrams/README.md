@@ -4,7 +4,7 @@ Group strings that contain the same characters into the same collection.
 
 ## 📌 Key Idea
 
-Convert each word into a normalized form by sorting its characters.
+Sort each word and use the sorted value as a grouping key.
 
 Words that produce the same sorted value belong to the same anagram group.
 
