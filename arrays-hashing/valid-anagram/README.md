@@ -32,4 +32,10 @@ Examples:
 * Time: `O(n)`
 * Space: `O(k)`
 
+## 📌 Notes
+
+Sorting is simpler to implement but increases time complexity to `O(n log n)`.
+
+Using a frequency map reduces the problem to lookups and updates, giving a linear-time solution.
+
 
