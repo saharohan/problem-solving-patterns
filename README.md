@@ -16,15 +16,16 @@ This repository is maintained as a structured reference for commonly used approa
 
 ## Structure
 
-📂 arrays-hashing
-📂 sliding-window
-📂 two-pointers
-📂 stack
-📂 binary-search
-📂 heap-priority-queue
-📂 trees
-📂 graphs
-📂 intervals
+* 📂 arrays-hashing
+* 📂 sliding-window
+* 📂 two-pointers
+* 📂 stack
+* 📂 binary-search
+* 📂 heap-priority-queue
+* 📂 trees
+* 📂 graphs
+* 📂 intervals
+
 
 Each problem generally contains:
 
