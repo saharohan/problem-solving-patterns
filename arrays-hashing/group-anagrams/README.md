@@ -45,4 +45,11 @@ Examples:
 
 * Space: `O(n × k)`
 
+## 📌 Notes
+
+Sorting each word makes grouping straightforward and easy to reason about.
+
+The tradeoff is sorting cost (`k log k`) for every word, which impacts overall complexity.
+
+
 
