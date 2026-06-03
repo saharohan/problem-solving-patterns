@@ -2,14 +2,14 @@
 
 A collection of problem-solving patterns and notes while revisiting DSA fundamentals and interview-oriented problems.
 
-The goal here is not to optimize for question count, but to understand patterns, improve reasoning and write clean implementations.
+The goal here is not to optimize for question count, but to understand patterns, improve reasoning, and write clean implementations.
 
-This repository is maintained as a structured reference for commonly used approaches, data structures and problem-solving intuition.
+This repository is maintained as a structured reference for commonly used approaches, data structures, and problem-solving intuition.
 
 ## What you'll find here
 
 * 📌 Pattern-based problem organization
-* ⚙️ Key idea, intuition and approach
+* ⚙️ Key idea, intuition, and approach
 * ⏱️ Time and space complexity analysis
 * 💻 Java implementations
 * 🏷️ Patterns and tradeoffs where relevant
