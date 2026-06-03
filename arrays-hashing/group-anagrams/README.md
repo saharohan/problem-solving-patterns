@@ -10,11 +10,10 @@ Words that produce the same sorted value belong to the same anagram group.
 
 Example:
 
-```txt id="m4xt4d"
 eat → aet
 tea → aet
 ate → aet
-```
+
 
 Since the sorted result is the same, they are grouped together.
 
