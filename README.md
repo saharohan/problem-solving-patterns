@@ -1,6 +1,6 @@
 # Problem Solving Patterns
 
-A collection of problem-solving patterns and notes while revisiting DSA fundamentals and interview-oriented problems.
+A collection of problem-solving patterns and notes while revisiting DSA fundamentals and interview-oriented problems, primarily based on LeetCode exercises.
 
 The goal here is not to optimize for question count, but to understand patterns, improve reasoning, and write clean implementations.
 
