@@ -20,15 +20,6 @@ Using a `HashSet` allows each number to be processed efficiently while ensuring 
 
 Arrays & Hashing → HashSet Lookup
 
-## 📌 Real-world application
-
-Useful when identifying continuous ranges within unordered data.
-
-Examples:
-
-* detecting continuous activity periods
-* finding consecutive IDs or sequence numbers
-* analyzing uninterrupted event ranges
 
 ## 📌 Complexity
 
@@ -37,6 +28,6 @@ Examples:
 
 ## 📌 Notes
 
-The important optimization is to start counting only from the beginning of a sequence.
+The key optimization is to start counting only from the beginning of a sequence.
 
-Checking `num - 1` avoids reprocessing numbers that already belong to an existing sequence, keeping the solution linear.
+Checking `num - 1` prevents reprocessing elements that already belong to an existing sequence, allowing the solution to run in linear time.
