@@ -1,14 +1,14 @@
 # Longest Repeating Character Replacement
 
-Find the length of the longest substring that can be transformed into a string of repeating characters using at most `k` replacements.
+Find the length of the longest substring that can be transformed into a string of repeating characters using at most k replacements.
 
 ## 📌 Key Idea
 
 Maintain a variable-size sliding window and track the frequency of characters within it.
 
-Keep the frequency of the most common character (`maxFreq`) in the current window.
+Keep the frequency of the most common character (maxFreq) in the current window.
 
-If the number of characters that need replacement exceeds `k`, shrink the window from the left.
+If the number of characters that need replacement exceeds k, shrink the window from the left.
 
 ## 📌 Why this approach
 
@@ -31,8 +31,8 @@ Sliding Window → Variable-Size Window
 
 The key observation is that the number of replacements needed for the current window is:
 
-`window size - frequency of the most common character`
+window size - frequency of the most common character
 
-If this value exceeds `k`, the window is no longer valid and must be shrunk.
+If this value exceeds k, the window is no longer valid and must be shrunk.
 
-The stored `maxFreq` is never decreased. Even if it becomes slightly outdated, the algorithm remains correct while avoiding unnecessary recomputation.
+The stored maxFreq is never decreased. Even if it becomes slightly outdated, the algorithm remains correct while avoiding unnecessary recomputation.
