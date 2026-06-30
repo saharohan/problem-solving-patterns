@@ -25,7 +25,7 @@ Sliding Window → Variable-Size Window
 * Time: `O(n)`
 * Space: `O(1)`
 
-> The frequency array has a fixed size of 26 uppercase English letters.
+ The frequency array has a fixed size of 26 uppercase English letters.
 
 ## 📌 Notes
 
