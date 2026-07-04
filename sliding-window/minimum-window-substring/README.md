@@ -25,7 +25,7 @@ Sliding Window → Variable-Size Window + Frequency Counting
 * Time: `O(n)`
 * Space: `O(1)`
 
-> The frequency array has a fixed size of 128 ASCII characters.
+ The frequency array has a fixed size of 128 ASCII characters.
 
 ## 📌 Notes
 
