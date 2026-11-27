@@ -1,0 +1,45 @@
+# Find Minimum in Rotated Sorted Array
+
+Find the minimum element in an array that was originally sorted in ascending order and then rotated at an unknown pivot.
+
+## 📌 Key Idea
+
+Use binary search to identify the portion of the rotated array containing the minimum element.
+
+Maintain two pointers:
+
+- `low` represents the beginning of the search range.
+- `high` represents the end of the search range.
+
+Calculate the middle index and compare `nums[mid]` with `nums[high]`.
+
+- If `nums[mid] > nums[high]`, the minimum must be in the right half. Move `low` to `mid + 1`.
+- Otherwise, the minimum is at `mid` or somewhere in the left half. Move `high` to `mid`.
+
+Continue until `low` and `high` converge.
+
+The converged index contains the minimum element.
+
+## 📌 Why this approach
+
+A rotated sorted array consists of two individually sorted portions.
+
+Comparing the middle element with the rightmost element helps determine which portion contains the rotation point and therefore the minimum.
+
+This allows binary search to eliminate approximately half of the search space in each iteration.
+
+## 📌 Pattern
+
+Binary Search → Modified Binary Search → Rotated Sorted Array
+
+## 📌 Complexity
+
+- Time: `O(log n)` — the search space is halved in each iteration.
+- Space: `O(1)` — constant auxiliary space.
+
+## 📌 Notes
+
+- Use `high = mid` rather than `mid - 1` because the middle element itself could be the minimum.
+- Use `low = mid + 1` when `nums[mid] > nums[high]` because the middle element cannot be the minimum.
+- The loop condition `low < high` ensures the algorithm terminates when both pointers converge.
+- This approach assumes all elements are distinct.
